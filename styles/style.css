@@ -1,0 +1,118 @@
+/* GLOBAL */
+
+:root {
+  --darkGrey: #333333;
+  --middleGrey: #4f4f4f;
+  --lightGrey: #bdbdbd;
+}
+
+.not__found-body {
+  padding: 10px 24px;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* HEADER */
+.not__found-header {
+  color: var(--darkGrey);
+}
+
+.not__found-header-title {
+  font-family: Inconsolata, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* SECTION */
+
+.not__found-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.not__found-section-illustration {
+  width: 540px;
+}
+
+.not__found-section-container-paragraph {
+  width: 450px;
+}
+
+.not__found-section-first-paragraph {
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 34px;
+  margin-top: 77px;
+  color: var(--darkGrey);
+}
+
+.not__found-section-second-paragraph {
+  font-family: Space Mono;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 30px 0;
+  color: var(--middleGrey);
+}
+
+.not__found-section-button {
+  height: 68px;
+  width: 216px;
+  font-family: Space Mono;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--darkGrey);
+  border: none;
+}
+
+/* FOOTER */
+.not__found-footer {
+  font-family: Montserrat;
+  color: var(--lightGrey);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.not__found-footer-span {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  /* SECTION */
+  .not__found-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .not__found-section-illustration {
+    width: 286px;
+  }
+
+  .not__found-section-container-paragraph {
+    width: 100%;
+  }
+
+  .not__found-section-first-paragraph {
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: 77px;
+    color: var(--darkGrey);
+  }
+
+  .not__found-section-second-paragraph {
+    font-family: Space Mono;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 30px 0;
+    color: var(--middleGrey);
+  }
+}
